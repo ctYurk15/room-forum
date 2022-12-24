@@ -1,9 +1,9 @@
 <?php
 
-include_once 'database/connect.php';
-include_once 'models/Rooms.php';
-include_once 'views/RoomPart.php';
-include_once 'views/Styles.php';
+include_once 'database'.DIRECTORY_SEPARATOR.'connect.php';
+include_once 'models'.DIRECTORY_SEPARATOR.'Rooms.php';
+include_once 'views'.DIRECTORY_SEPARATOR.'RoomPart.php';
+include_once 'views'.DIRECTORY_SEPARATOR.'Styles.php';
 
 $rooms = Rooms::all($mdb);
 
